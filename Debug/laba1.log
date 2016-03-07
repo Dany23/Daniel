@@ -1,0 +1,34 @@
+﻿Build started 07.03.2016 14:35:47.
+     1>Project "A:\Лабы\АиППС\laba1\laba1\laba1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt I:\BiquadraticEquation.cpp I:\CreateEquation.cpp I:\EquationBase.cpp I:\IEquation.cpp I:\LinearEquation.cpp I:\main.cpp I:\QuadraticEquation.cpp I:\UserIteraction.cpp
+         UserIteraction.cpp
+     1>i:\useriteraction.cpp(71): warning C4018: '<': signed/unsigned mismatch
+     1>i:\useriteraction.cpp(82): warning C4018: '<': signed/unsigned mismatch
+         QuadraticEquation.cpp
+     1>i:\quadraticequation.cpp(12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+         main.cpp
+         LinearEquation.cpp
+         IEquation.cpp
+         EquationBase.cpp
+         CreateEquation.cpp
+     1>i:\createequation.cpp(13): warning C4018: '<': signed/unsigned mismatch
+     1>i:\createequation.cpp(102): warning C4018: '<': signed/unsigned mismatch
+         BiquadraticEquation.cpp
+         Generating Code...
+     1>i:\createequation.cpp(96): warning C4715: 'CreatorOfEquation::Create': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\Лабы\АиППС\laba1\Debug\laba1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"A:\Лабы\АиППС\laba1\Debug\laba1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"A:\Лабы\АиППС\laba1\Debug\laba1.lib" /MACHINE:X86 Debug\BiquadraticEquation.obj
+         Debug\CreateEquation.obj
+         Debug\EquationBase.obj
+         Debug\IEquation.obj
+         Debug\LinearEquation.obj
+         Debug\main.obj
+         Debug\QuadraticEquation.obj
+         Debug\UserIteraction.obj
+         laba1.vcxproj -> A:\Лабы\АиППС\laba1\Debug\laba1.exe
+     1>Done Building Project "A:\Лабы\АиППС\laba1\laba1\laba1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.14
